@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    max-width: 1440px;
+    height: 230vh;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.white {
+    width: 700px;
+    height: 220vh;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+
+.egg {
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+h1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Outfit sans-serif; 
+    color: hsl(30, 10%, 34%);
+}
+
+#forh1 {
+  width: 550px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.roseContainer {
+    width: 550px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+h6{
+    color: hsl(332, 51%, 32%);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Outfit, sans-serif;
+}
+
+.firstStrong {
+    font-weight: 700;
+    font-family: Outfit,sans-serif;
+}
+
+.roseContainer ul li {
+    color:   hsl(30, 10%, 34%);
+    font-family: Outfit,sans-serif;
+    font-size: 14px;
+    padding-top: 1px;
+    margin-top: 8px;
+    margin-left: 11px;
+}
+
+/* აქედა იწყება ინგრედოენტი კონტეინერი */
+
+.ingredientsContainer {
+    width: 550px;
+    height: 150px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+h2{
+    font-family: Outfit, sans-serif;
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 5px;
+}
+
+.ingredientsContainer ul li {
+    color: hsl(14, 45%, 36%);
+    font-size: 14px;
+    font-family: Outfit, sans-serif;
+    margin-left: 11px; 
+}
+
+
+#ingredientline{
+    width: 550px;
+    height: 1px;
+    background-color: hsl(30, 18%, 87%);
+}
+
+/* აქედან იწყება ინსტრუქციების კონტეინერი */
+
+.forInstruction {
+    width: 550px;
+    height: 300px;
+
+}
+
+ .firstStrongg {
+    font-weight: 400;
+}
+.forInstruction ol  {
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    padding-left: 15px;
+    padding-top: 2px;;
+}
+
+.forInstruction li {
+  margin-top: 5px;
+}
+
+/* აქედან იწყება ნუტრიცია */
+
+.forNutrition {
+    width: 550px;
+    height: 300px;
+}
+
+span {
+    font-family: Outfit,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+
+}
+
+
+.forTable {
+    width: 550px;
+    height: 300px;
+}
+
+
+.forTable table {
+    margin-top: 25px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.forTable tr{
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.forTable tr:last-child {
+    border-bottom: none;
+}
+
+.forTable td {
+    padding: 15px;
+    text-align: left;
+}
+
+.firstTd{
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+}
+
+.secondTd {
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: hsl(14, 45%, 36%);
+}
+
+
+
+@media screen and (max-width : 767px) {
+    .egg {
+      width: auto;
+      height: 150px;  
+}
+
+#forh1 {
+    width: 250px;
+    height: 50px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.roseContainer {
+    width: 250px;
+    height: 100px;
+    position: relative;
+    margin-top: 70px;
+
+}
+
+.ingredientsContainer {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    margin-top: 30px;
+}
+
+#ingredientline{
+    width: 250px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.forInstruction {
+    width: 250px;
+    height: 500px;
+
+}
+
+
+.forNutrition {
+    width: 250px;
+   position: relative;
+   margin-top: 20px;
+}
+
+.forTable {
+    width: 250px;
+}
+}
